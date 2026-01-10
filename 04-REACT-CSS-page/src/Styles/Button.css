@@ -1,0 +1,11 @@
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  background-color: #4f46e5; /* Indigo */
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
