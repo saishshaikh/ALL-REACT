@@ -1,12 +1,12 @@
-import React from "react";
-import Button from "./Component/Button";  // Correct relative path
-import "./style/Button.css";
+import Header from "./Component/Header";
+import Button from "./Component/button";
 
 function App() {
   return (
-    <div>
+    <>
+      <Header />
       <Button />
-    </div>
+    </>
   );
 }
 

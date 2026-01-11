@@ -1,13 +1,11 @@
-import React from 'react'
-import "../style/Button.css";
+import "../Styles/Button.css"
 
-const  Button = () => {
+const Button = () => {
   return (
     <div>
-        <input type="text"  placeholder='YOUR DAIKY TASk'/>
-     <button className='btn'> CLICK ME </button>  
+      <button className='btn'> CLICK ME!!</button>
     </div>
   )
 }
 
-export default Button;
+export default Button
