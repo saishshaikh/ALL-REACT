@@ -1,34 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import".//index.css"
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <h1 className="hook">All HOOKS</h1>
+      | Hook Name             | कब/क्यों इस्तेमाल होता है                                | Example/Code         |
+| --------------------- | -------------------------------------------------------- | --------------------------------------- |
+| `useState`            | State को manage करने के लिए                              | Counter, Input value                    |
+| `useEffect`           | Side-effects, API calls, timers                          | Component mount/unmount, fetch data     |
+| `useRef`              | DOM reference, value store without re-render             | Input focus, storing previous value     |
+| `useContext`          | Global state, parent → child data without props drilling | Theme, Auth state                       |
+| `useReducer`          | Complex state logic, state with multiple sub-values      | Todo list, complex forms                |
+| `useMemo`             | Expensive calculations optimize करने के लिए              | Filtering large data                    |
+| `useCallback`         | Function reference preserve करने के लिए                  | Child component re-renders prevent      |
+| `useLayoutEffect`     | DOM mutations after render, measure DOM                  | Scroll position, animations             |
+| `useImperativeHandle` | Customizing ref behavior                                 | Exposing functions from child to parent |
+| `custom hooks`        | Logic reuse across components                            | `useFetch`, `useCounter`                |
+
+    </div>
   )
 }
 
