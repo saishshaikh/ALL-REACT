@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+#right {
+  overflow-x: auto;      /* horizontal scroll */
+  scrollbar-width: none; /* Firefox */
+}
+
+#right::-webkit-scrollbar {
+  height: 0px;           /* horizontal scrollbar height 0 - Chrome/Safari */
+}
