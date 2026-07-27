@@ -1,0 +1,22 @@
+/* Theme styles */
+.Light {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.Dark {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Navbar & Nav2 styling */
+.Nav, .Nav2 {
+  padding: 10px;
+}
+
+.Nav2 h4 {
+  display: inline-block;
+  margin-right: 10px;
+}
